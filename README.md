@@ -66,3 +66,6 @@ To verify a user's credentials by checking their username and password against s
     Convert the stored hash from a string to bytes (result[0].encode()).
     Compare the provided password (converted to bytes) with the stored hash using checkpw() (likely from the bcrypt library).
 - Return Authentication Status
+
+
+#### tcp_client(), tcp_server() functions share similar code structure in both tasks, the only exception is task 2, where we need to handle multithreading to get messages from several clients simultaneously.

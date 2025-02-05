@@ -35,6 +35,17 @@ Implementation of a basic and multi-client TCP Server using Socket API in Python
   python nurali_altair_task1_client.py  # To run TCP server
   ```
 
+## Special Features 
 
+### Password Encryption
+- The BCrypt Algorithm is used to hash and salt passwords in a secure way. BCrypt enables the creation of a password protection layer that can develop local hardware innovation in order to protect against long-term hazards or threats, such as attackers having the computational capacity to guess passwords twice as efficiently.
 
+#### How bcrypt works?
+![image](https://github.com/user-attachments/assets/ac355c5f-28bb-4db4-bc03-41a5d7000ec9)
+
+- The BCrypt Algorithm was used in the db_population.py to encode values of credentials dictionary
+![image](https://github.com/user-attachments/assets/75191ad6-5a78-4b65-8292-b8125ce3d316)
+
+#### Result of population
+![image](https://github.com/user-attachments/assets/d1a32943-0dff-4eb1-a383-f78e68ddacf6)
 
